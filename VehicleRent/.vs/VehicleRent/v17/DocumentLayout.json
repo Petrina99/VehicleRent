@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|c:\\programiranje\\vehiclerent\\vehiclerent\\vehiclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|solutionrelative:vehiclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|c:\\programiranje\\vehiclerent\\vehiclerent\\motorcylce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|solutionrelative:motorcylce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|c:\\programiranje\\vehiclerent\\vehiclerent\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|solutionrelative:car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|c:\\programiranje\\vehiclerent\\vehiclerent\\vehiclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|solutionrelative:vehiclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|c:\\programiranje\\vehiclerent\\vehiclerent\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|solutionrelative:ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|c:\\programiranje\\vehiclerent\\vehiclerent\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|solutionrelative:car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70FC1BF9-96ED-4C7F-8701-BF35BC0A8057}|VehicleRent.csproj|c:\\programiranje\\vehiclerent\\vehiclerent\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,33 +38,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Motorcylce.cs",
               "DocumentMoniker": "C:\\Programiranje\\VehicleRent\\VehicleRent\\Motorcylce.cs",
               "RelativeDocumentMoniker": "Motorcylce.cs",
               "ToolTip": "C:\\Programiranje\\VehicleRent\\VehicleRent\\Motorcylce.cs",
               "RelativeToolTip": "Motorcylce.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAswE0AAAAoAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAwwDYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T09:46:07.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "VehicleManager.cs",
               "DocumentMoniker": "C:\\Programiranje\\VehicleRent\\VehicleRent\\VehicleManager.cs",
               "RelativeDocumentMoniker": "VehicleManager.cs",
               "ToolTip": "C:\\Programiranje\\VehicleRent\\VehicleRent\\VehicleManager.cs",
               "RelativeToolTip": "VehicleManager.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAAbAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwEYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T08:53:57.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IVehicle.cs",
               "DocumentMoniker": "C:\\Programiranje\\VehicleRent\\VehicleRent\\IVehicle.cs",
               "RelativeDocumentMoniker": "IVehicle.cs",
@@ -77,13 +77,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Programiranje\\VehicleRent\\VehicleRent\\Car.cs",
               "RelativeDocumentMoniker": "Car.cs",
               "ToolTip": "C:\\Programiranje\\VehicleRent\\VehicleRent\\Car.cs",
               "RelativeToolTip": "Car.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAQwGgAAAAJAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAuwDQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T08:27:23.308Z",
               "EditorCaption": ""
@@ -96,7 +96,7 @@
               "RelativeDocumentMoniker": "Vehicle.cs",
               "ToolTip": "C:\\Programiranje\\VehicleRent\\VehicleRent\\Vehicle.cs",
               "RelativeToolTip": "Vehicle.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAADwvzEAAAAJAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAswCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T08:25:22.505Z",
               "EditorCaption": ""
@@ -109,7 +109,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Programiranje\\VehicleRent\\VehicleRent\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T08:24:54.458Z",
               "EditorCaption": ""

@@ -102,6 +102,8 @@ namespace VehicleRent
             newCar.TypeOfMotorcycle = Console.ReadLine();
             Console.Write($"Stroke type: ");
             newCar.StrokeType = Console.ReadLine();
+            Console.Write("VIN: ");
+            newCar.VIN = Console.ReadLine();
 
             return newCar;
         }

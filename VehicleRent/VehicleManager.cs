@@ -27,16 +27,20 @@ namespace VehicleRent
             vehicles.Add(newMoto);
         }
 
-        public void EditVehicle(string vin)
+        public void EditVehicle()
         {
+            Console.WriteLine("Enter VIN of vehicle to edit: ");
+            string vin = Console.ReadLine();
             Vehicle vehicleToEdit = vehicles.Find(x => x.VIN == vin);
             if (vehicleToEdit != null) 
             {
                 vehicleToEdit.EditVehicle();
             }
         }
-        public void RemoveVehicle(string vin)
+        public void RemoveVehicle()
         {
+            Console.WriteLine("Enter VIN of vehicle to be deleted: ");
+            string vin = Console.ReadLine();
             Vehicle vehicleToRemove = vehicles.Find(x => x.VIN == vin);
 
             if (vehicleToRemove != null)
@@ -47,18 +51,33 @@ namespace VehicleRent
 
         public void ListAll()
         {
-            foreach (Vehicle v in vehicles)
+            if (vehicles != null) 
             {
-                v.GetAllInfo();
+                foreach (Vehicle v in vehicles)
+                {
+                    v.GetAllInfo();
+                }
             }
+            else
+            {
+                Console.WriteLine("No vehicles in a list");
+            }
+
         }
 
         public void ListAllSummary()
         {
-            foreach (Vehicle v in vehicles)
+            if (vehicles != null)
             {
-                v.GetBasicInfo();
+                foreach (Vehicle v in vehicles)
+                {
+                    v.GetBasicInfo();
+                }
+            } else
+            {
+                Console.WriteLine("No vehicles in a list");
             }
+            
         }
     }
 }

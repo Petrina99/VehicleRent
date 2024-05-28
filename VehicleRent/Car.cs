@@ -41,7 +41,8 @@ namespace VehicleRent
         {
             Console.WriteLine($"Type of vehicle: {this.VehicleType}, Make: {this.Make}, Model: {this.Model}, Year: {this.Year}, " +
                 $" Type of car: {this.TypeOfCar}, Cubic capacity: {CubicCapacity},  " +
-                $"Horsepower: {this.Horsepower}, Mileage: {this.Mileage} km, Fuel type: {this.FuelType}");
+                $"Horsepower: {this.Horsepower}, Mileage: {this.Mileage} km, Fuel type: {this.FuelType}, " +
+                $"VIN: {VIN}");
         }
 
         public override string GetBasicInfo()
@@ -101,6 +102,8 @@ namespace VehicleRent
             Console.Write($"Cubic capacity: ");
             int c = Int32.TryParse(Console.ReadLine(), out c) ? c : 0;
             newCar.CubicCapacity = c;
+            Console.Write("VIN: ");
+            newCar.VIN = Console.ReadLine();
 
             return newCar;
         }
