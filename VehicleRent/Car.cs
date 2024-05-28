@@ -11,7 +11,10 @@ namespace VehicleRent
         public string? TypeOfCar { get; set; }
         public int CubicCapacity { get; set; }
 
-        public Car(string make, string model, int year, int hp, string typeOfCar, int cCapacity) 
+        public Car() {
+            VehicleType = "Car";
+        }
+        public Car(string make, string model, int year, int hp, string typeOfCar, int cCapacity, int mileage, string fuelType, string vin) 
         {
             VehicleType = "Car";
             Make = make;
@@ -20,6 +23,9 @@ namespace VehicleRent
             Horsepower = hp;
             TypeOfCar = typeOfCar;
             CubicCapacity = cCapacity;
+            Mileage = mileage;
+            FuelType = fuelType;
+            VIN = vin;
         }
 
         public Car(string make, string model, int year, int hp, int cCapacity)
@@ -34,7 +40,7 @@ namespace VehicleRent
         public override void GetAllInfo()
         {
             Console.WriteLine($"Type of vehicle: {this.VehicleType}, Make: {this.Make}, Model: {this.Model}, Year: {this.Year}, " +
-                $" Type of car: {this.TypeOfCar}, Cubic capacity: {CubicCapacity}, Trunk size: {this.TrunkSize}, " +
+                $" Type of car: {this.TypeOfCar}, Cubic capacity: {CubicCapacity},  " +
                 $"Horsepower: {this.Horsepower}, Mileage: {this.Mileage} km, Fuel type: {this.FuelType}");
         }
 
@@ -43,7 +49,7 @@ namespace VehicleRent
             return $"Make: {this.Make}, Model: {this.Model}, Year: {this.Year}";
         }
 
-        public void EditCar()
+        public override void EditVehicle()
         {
             Console.WriteLine("Editing car");
             Console.Write($"New type (current: {VehicleType}): ");
@@ -63,6 +69,40 @@ namespace VehicleRent
             Console.Write($"New cubic capacity(current: {CubicCapacity}): ");
             int c = Int32.TryParse(Console.ReadLine(), out c) ? c : CubicCapacity;
             CubicCapacity = c;
+            Console.Write($"New mileage(current: {Mileage}): ");
+            int m = Int32.TryParse(Console.ReadLine(), out m) ? m : Mileage;
+            Mileage = m;
+            Console.Write($"New fuel tpye (current: {FuelType}): ");
+            FuelType = Console.ReadLine();
+        }
+
+        public static Car AddCar()
+        {
+            Car newCar = new Car();
+
+            Console.WriteLine("Adding a car");
+            Console.Write("Make: ");
+            newCar.Make = Console.ReadLine();
+            Console.Write("Model: ");
+            newCar.Model = Console.ReadLine();
+            Console.Write("Year: ");
+            int y = Int32.TryParse(Console.ReadLine(), out y) ? y : 0;
+            newCar.Year = y;
+            Console.Write("Horsepower: ");
+            int h = Int32.TryParse(Console.ReadLine(), out h) ? h : 0;
+            newCar.Horsepower = h;
+            Console.Write("Mileage: ");
+            int m = Int32.TryParse(Console.ReadLine(), out m) ? m : 0;
+            newCar.Mileage = m;
+            Console.Write("Fuel type: ");
+            newCar.FuelType = Console.ReadLine();
+            Console.Write($"Type of car: ");
+            newCar.TypeOfCar = Console.ReadLine();
+            Console.Write($"Cubic capacity: ");
+            int c = Int32.TryParse(Console.ReadLine(), out c) ? c : 0;
+            newCar.CubicCapacity = c;
+
+            return newCar;
         }
     }   
     

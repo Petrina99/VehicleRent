@@ -15,17 +15,24 @@ namespace VehicleRent
             vehicles = new List<Vehicle>();
         }
 
-        public void AddVehicle(Vehicle vehicle)
+        public void AddCars()
         {
-            vehicles.Add(vehicle);
+            Car newCar = Car.AddCar();
+            vehicles.Add(newCar);
+        }
+
+        public void AddMoto()
+        {
+            Motorcylce newMoto = Motorcylce.AddMoto();
+            vehicles.Add(newMoto);
         }
 
         public void EditVehicle(string vin)
         {
             Vehicle vehicleToEdit = vehicles.Find(x => x.VIN == vin);
             if (vehicleToEdit != null) 
-            { 
-                vehicleToEdit.EditVehicle()
+            {
+                vehicleToEdit.EditVehicle();
             }
         }
         public void RemoveVehicle(string vin)
