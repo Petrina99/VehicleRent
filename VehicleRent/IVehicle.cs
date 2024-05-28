@@ -12,5 +12,6 @@ namespace VehicleRent
         int GetHP();
         int GetMileage();
         string GetBasicInfo();
+        void EditVehicle();
     }
 }

@@ -19,6 +19,6 @@ do
     Console.WriteLine("#7: List all motorcycles");
     Console.WriteLine("#9: Exit program");
 
-    Int32.TryParse(Console.ReadLine(), out a);
+    a = Int32.TryParse(Console.ReadLine(), out a) ? a : 0;
 }
 while (a != 1);

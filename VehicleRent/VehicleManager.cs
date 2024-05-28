@@ -20,8 +20,18 @@ namespace VehicleRent
             vehicles.Add(vehicle);
         }
 
-        public void RemoveVehicle(Vehicle vehicleToRemove)
+        public void EditVehicle(string vin)
         {
+            Vehicle vehicleToEdit = vehicles.Find(x => x.VIN == vin);
+            if (vehicleToEdit != null) 
+            { 
+                vehicleToEdit.EditVehicle()
+            }
+        }
+        public void RemoveVehicle(string vin)
+        {
+            Vehicle vehicleToRemove = vehicles.Find(x => x.VIN == vin);
+
             if (vehicleToRemove != null)
             {
                 vehicles.Remove(vehicleToRemove);
@@ -38,7 +48,10 @@ namespace VehicleRent
 
         public void ListAllSummary()
         {
-
+            foreach (Vehicle v in vehicles)
+            {
+                v.GetBasicInfo();
+            }
         }
     }
 }

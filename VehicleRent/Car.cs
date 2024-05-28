@@ -10,9 +10,8 @@ namespace VehicleRent
     {
         public string? TypeOfCar { get; set; }
         public int CubicCapacity { get; set; }
-        public double TrunkSize { get; set; }
 
-        public Car(string make, string model, int year, int hp, string typeOfCar, int cCapacity, double trunkSize) 
+        public Car(string make, string model, int year, int hp, string typeOfCar, int cCapacity) 
         {
             VehicleType = "Car";
             Make = make;
@@ -21,10 +20,9 @@ namespace VehicleRent
             Horsepower = hp;
             TypeOfCar = typeOfCar;
             CubicCapacity = cCapacity;
-            TrunkSize = trunkSize;
         }
 
-        public Car(string make, string model, int year, int hp, int cCapacity, double trunkSize)
+        public Car(string make, string model, int year, int hp, int cCapacity)
         {
             VehicleType = "Car";
             Make = make;
@@ -32,7 +30,6 @@ namespace VehicleRent
             Year = year;
             Horsepower = hp;
             CubicCapacity = cCapacity;
-            TrunkSize = trunkSize;
         }
         public override void GetAllInfo()
         {
@@ -44,6 +41,28 @@ namespace VehicleRent
         public override string GetBasicInfo()
         {
             return $"Make: {this.Make}, Model: {this.Model}, Year: {this.Year}";
+        }
+
+        public void EditCar()
+        {
+            Console.WriteLine("Editing car");
+            Console.Write($"New type (current: {VehicleType}): ");
+            VehicleType = Console.ReadLine();
+            Console.Write($"New Make (current: {Make}): ");
+            Make = Console.ReadLine();
+            Console.Write($"New Model (current: {Model}): ");
+            Model = Console.ReadLine();
+            Console.Write($"New type of car (current: {TypeOfCar}): ");
+            TypeOfCar = Console.ReadLine();
+            Console.Write($"New Year(current: {Year}): ");
+            int y = Int32.TryParse(Console.ReadLine(), out y) ? y : Year;
+            Year = y;
+            Console.Write($"New horsepower(current: {Horsepower}): ");
+            int z = Int32.TryParse(Console.ReadLine(), out z) ? z : Horsepower;
+            Horsepower = z;
+            Console.Write($"New cubic capacity(current: {CubicCapacity}): ");
+            int c = Int32.TryParse(Console.ReadLine(), out c) ? c : CubicCapacity;
+            CubicCapacity = c;
         }
     }   
     
