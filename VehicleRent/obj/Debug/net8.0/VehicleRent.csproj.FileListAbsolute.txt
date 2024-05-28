@@ -1,0 +1,15 @@
+C:\Programiranje\VehicleRent\VehicleRent\bin\Debug\net8.0\VehicleRent.exe
+C:\Programiranje\VehicleRent\VehicleRent\bin\Debug\net8.0\VehicleRent.deps.json
+C:\Programiranje\VehicleRent\VehicleRent\bin\Debug\net8.0\VehicleRent.runtimeconfig.json
+C:\Programiranje\VehicleRent\VehicleRent\bin\Debug\net8.0\VehicleRent.dll
+C:\Programiranje\VehicleRent\VehicleRent\bin\Debug\net8.0\VehicleRent.pdb
+C:\Programiranje\VehicleRent\VehicleRent\obj\Debug\net8.0\VehicleRent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programiranje\VehicleRent\VehicleRent\obj\Debug\net8.0\VehicleRent.AssemblyInfoInputs.cache
+C:\Programiranje\VehicleRent\VehicleRent\obj\Debug\net8.0\VehicleRent.AssemblyInfo.cs
+C:\Programiranje\VehicleRent\VehicleRent\obj\Debug\net8.0\VehicleRent.csproj.CoreCompileInputs.cache
+C:\Programiranje\VehicleRent\VehicleRent\obj\Debug\net8.0\VehicleRent.sourcelink.json
+C:\Programiranje\VehicleRent\VehicleRent\obj\Debug\net8.0\VehicleRent.dll
+C:\Programiranje\VehicleRent\VehicleRent\obj\Debug\net8.0\refint\VehicleRent.dll
+C:\Programiranje\VehicleRent\VehicleRent\obj\Debug\net8.0\VehicleRent.pdb
+C:\Programiranje\VehicleRent\VehicleRent\obj\Debug\net8.0\VehicleRent.genruntimeconfig.cache
+C:\Programiranje\VehicleRent\VehicleRent\obj\Debug\net8.0\ref\VehicleRent.dll
