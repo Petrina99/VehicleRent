@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VehicleRent
 {
-    public class VehicleManager : IVehicle
+    public class VehicleManager
     {
         public List<Vehicle> vehicles;
 
@@ -32,8 +32,13 @@ namespace VehicleRent
         {
             foreach (Vehicle v in vehicles)
             {
-                v.GetInfo();
+                v.GetAllInfo();
             }
+        }
+
+        public void ListAllSummary()
+        {
+
         }
     }
 }
